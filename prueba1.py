@@ -2,7 +2,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
-
+from PIL import Image
 def main():
     #titulo
     st.title('prueba')
@@ -40,7 +40,9 @@ def main():
     #         st.success(classify(m_b(df)))
     #     else:
     #         st.success(classify(m_c(df)))
+    image = Image.open('mapa_medidas.png')
 
+    st.image(image, caption='Sunrise by the mountains')
 
 if __name__ == '__main__':
     main()
