@@ -41,12 +41,11 @@ def main():
     #     else:
     #         st.success(classify(m_c(df)))
     image = Image.open('mapa_medidas.png')
-    st.image(image, caption='Sunrise by the mountains')
+    st.image(image, caption='mapatas')
     
-    video_file = open('test.gif', 'rb')
-    video_bytes = video_file.read()
-    st.video(video_bytes)
-    
+    imageq = Image.open('test.gif')
+    st.image(imageq, caption='Medidas de locos')
+      
 if __name__ == '__main__':
     main()
     
