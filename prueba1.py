@@ -8,7 +8,7 @@ def main():
     #titulo
     st.title('prueba')
     #titulo de sidebar
-#    st.sidebar.header('Menu')
+    st.sidebar.header('Menu')
 
     # 1. as sidebar menu
     with st.sidebar:
